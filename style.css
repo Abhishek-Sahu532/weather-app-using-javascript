@@ -1,0 +1,140 @@
+body{
+    background: url('https://eastep.files.wordpress.com/2014/10/98072210-19-2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    
+}
+
+.searchbar{
+    background-color: rgba(0, 0,0, 0.5);
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+@media only screen and (max-width:490px) {
+   
+    .weatherDetailsMainDiv{
+        background-color:  red
+        /* padding: 20px;
+        border-radius: 10px;
+        margin-left: 15px;
+        color: #90E0EF;
+        font-weight: 700;
+        width: 350px;
+        height: 300px; */
+    
+        
+    }
+
+    .imageUpperSection{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 460px)  {
+    body{
+        background: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        display: block;
+        width: auto;
+        color: #FEFAE0;
+    }
+    .searchbar{
+        display: block;
+        width: auto;
+        height:auto;
+       }
+    
+    
+}
+
+.searchbar h1{
+    color: #90E0EF;
+}
+
+.searchbar #searchInput{
+    display: absolute;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #97D2FB;
+    border-radius: 10px;
+}
+
+.searchbar #searchInput:hover{
+    border: 1px solid #ECCBD9;
+}
+.searchbar button{
+    padding: 10px;
+    margin-left: 0;
+    border: 1px solid #97D2FB;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: #97D2FB;
+    color: #E1EFF6;
+
+}
+
+/* section 2 */
+
+.weatherDetailsMainDiv{
+    background-color:  rgba(0, 0,0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    color: #90E0EF;
+    font-weight: 700;
+    width: 350px;
+    height: 300px;
+
+    
+}
+
+/* #loading{
+    font-size: 28px;
+    color: #0077B6;
+} */
+.imageUpperSection{
+    display: flex;
+    flex-basis: auto;
+    margin: 15px;
+}
+
+.imageUpperSection .weatherDetails{
+width: 150px;
+height: 100px;
+}
+
+.weatherDetailsMainDiv .airIndex{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.weatherDetailsMainDiv .airIndex p{
+    text-align: center;
+
+}
+
+
+
+
+
+
